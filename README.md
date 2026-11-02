@@ -157,6 +157,22 @@ AI-generated findings must not be confused with official regulatory decisions.
 
 **Approach:** Clearly separate technical evidence review, AI output quality, and authoritative permit approval.
 
+## Evaluation Methodology and Evidence Boundaries
+
+The engineering evaluation distinguishes three separate questions:
+
+1. **Retrieval relevance:** Did the system retrieve the correct drawing, code passage, or jurisdiction document?
+2. **Evidence sufficiency:** Does the retrieved material contain the required facts to support the specific claim?
+3. **Answer groundedness:** Is each conclusion traceable to the retrieved source and consistent with its scope?
+
+A representative review case should record the question, document/version identifiers, expected supporting sources, retrieved sources, claim-level citations, and the reviewer adjudication. Cases with missing or conflicting evidence should be labeled separately from supported findings.
+
+**Evaluation transparency:** This public portfolio does not publish a verified corpus-wide benchmark, gold-set size, Recall@K, or groundedness score. No such numerical performance claim should be inferred from the architecture description. The Lake Dallas demonstration and any offline or synthetic tests are not equivalent to a multi-jurisdiction production accuracy study.
+
+**Failure behavior:** When required evidence is missing, the appropriate outcome is an explicit insufficient-evidence response or a request for human review, not an unsupported compliance assertion.
+
+**Reproducibility boundary:** Proprietary source code and project documents are not distributed here. This repository is an architecture and engineering decision portfolio, rather than an independently executable open-source implementation.
+
 ## 8. Live Demonstration
 
 **CIVIX Demo:**  
