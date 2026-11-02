@@ -7,7 +7,6 @@
 **Live Demo:** https://civix-collin-county-demo.vercel.app
 
 **Developer:** Daniel Jeong, Ph.D.  
-**Organization:** Covenant AI Solutions LLC  
 **Role:** AI Solution Architect & Lead Developer
 
 ---
